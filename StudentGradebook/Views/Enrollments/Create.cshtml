@@ -1,0 +1,119 @@
+﻿@model StudentGradebook.Models.Enrollment
+
+@{
+    ViewData["Title"] = "Enroll Student";
+}
+
+<h1>Enroll Student</h1>
+
+<hr />
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <h4>Please fix the following errors:</h4>
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" id="enrollmentForm">
+            @Html.AntiForgeryToken()
+
+            <div class="form-group mb-3">
+                <label asp-for="StudentId" class="control-label">Student *</label>
+                <select asp-for="StudentId" class="form-control" asp-items="ViewBag.StudentId" required>
+                    <option value="">-- Select Student --</option>
+                </select>
+                <span asp-validation-for="StudentId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="CourseId" class="control-label">Course *</label>
+                <select asp-for="CourseId" class="form-control" asp-items="ViewBag.CourseId" required>
+                    <option value="">-- Select Course --</option>
+                </select>
+                <span asp-validation-for="CourseId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="EnrollmentDate" class="control-label">Enrollment Date *</label>
+                <input asp-for="EnrollmentDate" class="form-control" type="date" required />
+                <span asp-validation-for="EnrollmentDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Status" class="control-label">Status *</label>
+                <select asp-for="Status" class="form-control" required>
+                    <option value="">-- Select Status --</option>
+                    <option value="0">Enrolled</option>
+                    <option value="1">Completed</option>
+                    <option value="2">Dropped</option>
+                    <option value="3">Withdrawn</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Enroll Student</button>
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Form validation and enhancement
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('enrollmentForm');
+            const enrollmentDateField = document.getElementById('EnrollmentDate');
+
+            // Set default enrollment date to today
+            if (enrollmentDateField && !enrollmentDateField.value) {
+                const today = new Date().toISOString().split('T')[0];
+                enrollmentDateField.value = today;
+            }
+
+            // Set default status to "Enrolled"
+            const statusField = document.getElementById('Status');
+            if (statusField && !statusField.value) {
+                statusField.value = '0'; // Enrolled
+            }
+
+            form.addEventListener('submit', function(e) {
+                const studentId = document.getElementById('StudentId').value;
+                const courseId = document.getElementById('CourseId').value;
+                const status = document.getElementById('Status').value;
+                const enrollmentDate = document.getElementById('EnrollmentDate').value;
+
+                console.log('Form submission check:');
+                console.log('StudentId:', studentId);
+                console.log('CourseId:', courseId);
+                console.log('Status:', status);
+                console.log('EnrollmentDate:', enrollmentDate);
+
+                if (!studentId || !courseId || !status || !enrollmentDate) {
+                    e.preventDefault();
+                    alert('Please fill in all required fields.');
+                    return false;
+                }
+
+                return true;
+            });
+        });
+    </script>
+}
