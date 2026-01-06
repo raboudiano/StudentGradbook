@@ -26,7 +26,7 @@ namespace StudentGradebook.Services
         {
             return await _context.Assignments
                 .Include(a => a.Course)
-                .Include(a => a.Grades)
+                .Include(a => a.Grades)  // This will work after adding Grades to Assignment model
                 .ThenInclude(g => g.Student)
                 .FirstOrDefaultAsync(a => a.Id == id);
         }
@@ -72,7 +72,10 @@ namespace StudentGradebook.Services
         {
             try
             {
-                var assignment = await GetAssignmentByIdAsync(id);
+                var assignment = await _context.Assignments
+                    .Include(a => a.Grades)  // Include grades to handle cascade delete if needed
+                    .FirstOrDefaultAsync(a => a.Id == id);
+
                 if (assignment != null)
                 {
                     _context.Assignments.Remove(assignment);

@@ -1,4 +1,4 @@
-﻿@model StudentGradebook.Models.Assignment
+﻿@model StudentGradebook.Controllers.AssignmentsController.AssignmentViewModel
 
 @{
     ViewData["Title"] = "Create Assignment";
@@ -7,14 +7,24 @@
 <h1>Create Assignment</h1>
 
 <hr />
+
+<!-- Show ALL validation errors -->
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <h4>Please fix the following errors:</h4>
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </div>
+}
+
 <div class="row">
     <div class="col-md-6">
         <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @Html.AntiForgeryToken()
 
             <div class="form-group mb-3">
                 <label asp-for="CourseId" class="control-label">Course *</label>
-                <select asp-for="CourseId" class="form-control" asp-items="ViewBag.CourseId" required>
+                <select asp-for="CourseId" class="form-control" asp-items="ViewBag.CourseId">
                     <option value="">-- Select Course --</option>
                 </select>
                 <span asp-validation-for="CourseId" class="text-danger"></span>
@@ -53,8 +63,13 @@
                 <div class="col-md-6">
                     <div class="form-group mb-3">
                         <label asp-for="Type" class="control-label">Type *</label>
-                        <select asp-for="Type" class="form-control" asp-items="Html.GetEnumSelectList<AssignmentType>()" required>
+                        <select asp-for="Type" class="form-control">
                             <option value="">-- Select Type --</option>
+                            <option value="Homework">Homework</option>
+                            <option value="Quiz">Quiz</option>
+                            <option value="Exam">Exam</option>
+                            <option value="Project">Project</option>
+                            <option value="Participation">Participation</option>
                         </select>
                         <span asp-validation-for="Type" class="text-danger"></span>
                     </div>

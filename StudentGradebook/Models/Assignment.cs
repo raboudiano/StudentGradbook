@@ -1,5 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace StudentGradebook.Models
 {
@@ -7,8 +8,11 @@ namespace StudentGradebook.Models
     {
         public int Id { get; set; }
 
+        
         public int CourseId { get; set; }
-        public Course Course { get; set; }
+
+        // Navigation property
+        public virtual Course Course { get; set; }
 
         [Required]
         [StringLength(100)]
@@ -17,26 +21,18 @@ namespace StudentGradebook.Models
         public string Description { get; set; }
 
         [Range(0, 1000)]
-        public decimal MaxPoints { get; set; } = 100;
-
-        [DataType(DataType.Date)]
-        public DateTime DueDate { get; set; } = DateTime.Now.AddDays(7);
+        public decimal MaxPoints { get; set; }
 
         [Range(0, 100)]
-        public decimal Weight { get; set; } = 10;
+        public decimal Weight { get; set; }
 
-        public AssignmentType Type { get; set; } = AssignmentType.Homework;
+        [Required]
+        public string Type { get; set; }
 
-        // Navigation properties
-        public ICollection<Grade> Grades { get; set; } = new List<Grade>();
-    }
+        [DataType(DataType.Date)]
+        public DateTime DueDate { get; set; }
 
-    public enum AssignmentType
-    {
-        Homework,
-        Quiz,
-        Exam,
-        Project,
-        Participation
+        // Navigation property for Grades
+        public virtual ICollection<Grade> Grades { get; set; } = new List<Grade>();
     }
 }

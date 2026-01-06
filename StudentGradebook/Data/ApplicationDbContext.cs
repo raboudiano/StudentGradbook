@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using StudentGradebook.Models;
-using System.Diagnostics;
 
 namespace StudentGradebook.Data
 {
@@ -22,7 +21,7 @@ namespace StudentGradebook.Data
         {
             base.OnModelCreating(builder);
 
-            // Configure relationships
+            // Enrollment relationships
             builder.Entity<Enrollment>()
                 .HasOne(e => e.Student)
                 .WithMany(s => s.Enrollments)
@@ -33,11 +32,13 @@ namespace StudentGradebook.Data
                 .WithMany(c => c.Enrollments)
                 .HasForeignKey(e => e.CourseId);
 
+            // Assignment relationships
             builder.Entity<Assignment>()
                 .HasOne(a => a.Course)
                 .WithMany(c => c.Assignments)
                 .HasForeignKey(a => a.CourseId);
 
+            // Grade relationships
             builder.Entity<Grade>()
                 .HasOne(g => g.Student)
                 .WithMany(s => s.Grades)
@@ -47,6 +48,19 @@ namespace StudentGradebook.Data
                 .HasOne(g => g.Assignment)
                 .WithMany(a => a.Grades)
                 .HasForeignKey(g => g.AssignmentId);
+
+            // Decimal precision
+            builder.Entity<Assignment>()
+                .Property(a => a.MaxPoints)
+                .HasPrecision(18, 2);
+
+            builder.Entity<Assignment>()
+                .Property(a => a.Weight)
+                .HasPrecision(5, 2);
+
+            builder.Entity<Grade>()
+                .Property(g => g.PointsEarned)
+                .HasPrecision(18, 2);
         }
     }
 }

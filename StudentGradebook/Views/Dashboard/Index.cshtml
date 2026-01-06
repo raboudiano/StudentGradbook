@@ -1,0 +1,188 @@
+﻿@model StudentGradebook.Controllers.DashboardController.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="row mb-4">
+    <div class="col-12">
+        <h1>Gradebook Dashboard</h1>
+        <p class="text-muted">Welcome to your Student Gradebook management system</p>
+    </div>
+</div>
+
+<!-- Statistics Cards -->
+<div class="row mb-4">
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-primary">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4 class="card-title">@Model.ActiveStudentsCount</h4>
+                        <p class="card-text">Active Students</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-users fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a asp-controller="Students" asp-action="Index" class="text-white">View Students</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-success">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4 class="card-title">@Model.ActiveCoursesCount</h4>
+                        <p class="card-text">Active Courses</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-book fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a asp-controller="Courses" asp-action="Index" class="text-white">View Courses</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-warning">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4 class="card-title">@Model.TotalAssignments.Count</h4>
+                        <p class="card-text">Total Assignments</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-tasks fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a asp-controller="Assignments" asp-action="Index" class="text-white">View Assignments</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-info">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4 class="card-title">@Model.TotalEnrollmentsCount</h4>
+                        <p class="card-text">Total Enrollments</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-clipboard-list fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a asp-controller="Enrollments" asp-action="Index" class="text-white">View Enrollments</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Activity -->
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Recent Enrollments</h5>
+            </div>
+            <div class="card-body">
+                @if (Model.RecentEnrollments.Any())
+                {
+                    <div class="table-responsive">
+                        <table class="table table-striped table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Student</th>
+                                    <th>Course</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var enrollment in Model.RecentEnrollments)
+                                {
+                                    <tr>
+                                        <td>@enrollment.Student.FullName</td>
+                                        <td>@enrollment.Course.CourseCode</td>
+                                        <td>@enrollment.EnrollmentDate.ToString("MM/dd/yyyy")</td>
+                                        <td>
+                                            <span class="badge @(enrollment.Status == EnrollmentStatus.Enrolled ? "bg-success" : "bg-secondary")">
+                                                @enrollment.Status
+                                            </span>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted">No recent enrollments found.</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Quick Actions</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-grid gap-2">
+                    <a asp-controller="Students" asp-action="Create" class="btn btn-primary">Add New Student</a>
+                    <a asp-controller="Courses" asp-action="Create" class="btn btn-success">Create New Course</a>
+                    <a asp-controller="Assignments" asp-action="Create" class="btn btn-warning">Create Assignment</a>
+                    <a asp-controller="Enrollments" asp-action="Create" class="btn btn-info">Enroll Student</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <h5 class="card-title mb-0">System Overview</h5>
+            </div>
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-6">Total Students:</dt>
+                    <dd class="col-6">@Model.TotalStudents.Count</dd>
+
+                    <dt class="col-6">Total Courses:</dt>
+                    <dd class="col-6">@Model.TotalCourses.Count</dd>
+
+                    <dt class="col-6">Active Students:</dt>
+                    <dd class="col-6">@Model.ActiveStudentsCount</dd>
+
+                    <dt class="col-6">Active Courses:</dt>
+                    <dd class="col-6">@Model.ActiveCoursesCount</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Remove Font Awesome for now to avoid CDN issues -->
+@section Scripts {
+    <style>
+        .card {
+            transition: transform 0.2s;
+        }
+
+            .card:hover {
+                transform: translateY(-2px);
+            }
+    </style>
+}

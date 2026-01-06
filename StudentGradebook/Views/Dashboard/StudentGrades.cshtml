@@ -1,0 +1,81 @@
+﻿@model StudentGradebook.Controllers.DashboardController.StudentGradesViewModel
+
+@{
+    ViewData["Title"] = $"{Model.Student.FullName} - Grades";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>@Model.Student.FullName - Grade Report</h1>
+    <a asp-controller="Students" asp-action="Details" asp-route-id="@Model.Student.Id" class="btn btn-secondary">Back to Student</a>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Student Information</h5>
+            </div>
+            <div class="card-body">
+                <dl>
+                    <dt>Student ID:</dt>
+                    <dd>@Model.Student.StudentId</dd>
+
+                    <dt>Email:</dt>
+                    <dd>@Model.Student.Email</dd>
+
+                    <dt>Enrollment Date:</dt>
+                    <dd>@Model.Student.EnrollmentDate.ToString("MM/dd/yyyy")</dd>
+
+                    <dt>Current Courses:</dt>
+                    <dd>@Model.Enrollments.Count(e => e.Status == EnrollmentStatus.Enrolled)</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Grade Summary</h5>
+            </div>
+            <div class="card-body">
+                @if (Model.Grades.Any())
+                {
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Course</th>
+                                    <th>Assignment</th>
+                                    <th>Points</th>
+                                    <th>Percentage</th>
+                                    <th>Graded Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var grade in Model.Grades)
+                                {
+                                    <tr>
+                                        <td>@grade.Assignment.Course.CourseCode</td>
+                                        <td>@grade.Assignment.Title</td>
+                                        <td>@grade.PointsEarned / @grade.Assignment.MaxPoints</td>
+                                        <td>
+                                            <span class="badge @(grade.Percentage >= 70 ? "bg-success" : grade.Percentage >= 60 ? "bg-warning" : "bg-danger")">
+                                                @grade.Percentage.ToString("F1")%
+                                            </span>
+                                        </td>
+                                        <td>@grade.GradedDate.ToString("MM/dd/yyyy")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted">No grades recorded for this student yet.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>

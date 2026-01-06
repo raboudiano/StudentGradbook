@@ -12,7 +12,7 @@ using StudentGradebook.Data;
 namespace StudentGradebook.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251123111654_InitialCreate")]
+    [Migration("20251123171222_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -246,6 +246,7 @@ namespace StudentGradebook.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("MaxPoints")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Title")
@@ -253,11 +254,13 @@ namespace StudentGradebook.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Weight")
-                        .HasColumnType("decimal(18,2)");
+                        .HasPrecision(5, 2)
+                        .HasColumnType("decimal(5,2)");
 
                     b.HasKey("Id");
 
@@ -352,6 +355,7 @@ namespace StudentGradebook.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("PointsEarned")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("StudentId")
@@ -373,6 +377,9 @@ namespace StudentGradebook.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("BirthDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
                         .IsRequired()

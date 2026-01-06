@@ -7,32 +7,52 @@
       "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\assignments\\entergrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\assignments\\entergrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\assignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\assignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\assignments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\assignments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\assignments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\assignments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\dashboard\\studentgrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\dashboard\\studentgrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\assignments\\entergrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\assignments\\entergrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\assignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\assignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\assignments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\assignments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\services\\igradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\services\\igradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\services\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,10 +115,6 @@
       "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123120321_AddBirthDateToStudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentGradebook\\Migrations\\20251123120321_AddBirthDateToStudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -123,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\enrollments\\bystudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123115144_AddEnrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentGradebook\\Migrations\\20251123115144_AddEnrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -137,6 +145,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|c:\\users\\boub0\\source\\repos\\studentgradebook\\studentgradebook\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8B7BEC3A-7F51-4719-9A6D-D8BE48A07A16}|StudentGradebook\\StudentGradebook.csproj|solutionrelative:studentgradebook\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123120321_AddBirthDateToStudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentGradebook\\Migrations\\20251123120321_AddBirthDateToStudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123115144_AddEnrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentGradebook\\Migrations\\20251123115144_AddEnrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123111654_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -150,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -163,27 +183,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnterGrades.cshtml",
-              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\EnterGrades.cshtml",
-              "RelativeDocumentMoniker": "StudentGradebook\\Views\\Assignments\\EnterGrades.cshtml",
-              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\EnterGrades.cshtml",
-              "RelativeToolTip": "StudentGradebook\\Views\\Assignments\\EnterGrades.cshtml",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAkwI8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T13:06:46.075Z",
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Models\\Assignment.cs",
+              "RelativeDocumentMoniker": "StudentGradebook\\Models\\Assignment.cs",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Models\\Assignment.cs",
+              "RelativeToolTip": "StudentGradebook\\Models\\Assignment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T16:47:19.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\Details.cshtml",
-              "RelativeDocumentMoniker": "StudentGradebook\\Views\\Assignments\\Details.cshtml",
-              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\Details.cshtml",
-              "RelativeToolTip": "StudentGradebook\\Views\\Assignments\\Details.cshtml",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwGcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T13:05:53.731Z",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "StudentGradebook\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "StudentGradebook\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T16:24:26.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Controllers\\AssignmentsController.cs",
+              "RelativeDocumentMoniker": "StudentGradebook\\Controllers\\AssignmentsController.cs",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Controllers\\AssignmentsController.cs",
+              "RelativeToolTip": "StudentGradebook\\Controllers\\AssignmentsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwCEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T12:54:28.425Z",
               "EditorCaption": ""
             },
             {
@@ -194,7 +227,7 @@
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Assignments\\Create.cshtml",
               "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\Create.cshtml",
               "RelativeToolTip": "StudentGradebook\\Views\\Assignments\\Create.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAkwF8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwG4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-23T13:05:34.347Z",
               "EditorCaption": ""
@@ -202,6 +235,95 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "StudentGrades.cshtml",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Dashboard\\StudentGrades.cshtml",
+              "RelativeDocumentMoniker": "StudentGradebook\\Views\\Dashboard\\StudentGrades.cshtml",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Dashboard\\StudentGrades.cshtml",
+              "RelativeToolTip": "StudentGradebook\\Views\\Dashboard\\StudentGrades.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwFAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T15:56:38.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentGradebook\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "StudentGradebook\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAkwLsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T15:56:13.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssignmentService.cs",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\AssignmentService.cs",
+              "RelativeDocumentMoniker": "StudentGradebook\\Services\\AssignmentService.cs",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\AssignmentService.cs",
+              "RelativeToolTip": "StudentGradebook\\Services\\AssignmentService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T12:53:07.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "StudentGradebook\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "StudentGradebook\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T15:55:20.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Program.cs",
+              "RelativeDocumentMoniker": "StudentGradebook\\Program.cs",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Program.cs",
+              "RelativeToolTip": "StudentGradebook\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T11:13:06.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StudentGradebook\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StudentGradebook\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T11:47:33.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20251123130258_AddAssignmentsAndGrades.cs",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs",
+              "RelativeDocumentMoniker": "StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs",
+              "RelativeToolTip": "StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T13:02:58.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\Index.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Assignments\\Index.cshtml",
@@ -214,33 +336,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20251123130258_AddAssignmentsAndGrades.cs",
-              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs",
-              "RelativeDocumentMoniker": "StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs",
-              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs",
-              "RelativeToolTip": "StudentGradebook\\Migrations\\20251123130258_AddAssignmentsAndGrades.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T13:02:58.989Z",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\Details.cshtml",
+              "RelativeDocumentMoniker": "StudentGradebook\\Views\\Assignments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\Details.cshtml",
+              "RelativeToolTip": "StudentGradebook\\Views\\Assignments\\Details.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwGcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T13:05:53.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssignmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Controllers\\AssignmentsController.cs",
-              "RelativeDocumentMoniker": "StudentGradebook\\Controllers\\AssignmentsController.cs",
-              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Controllers\\AssignmentsController.cs",
-              "RelativeToolTip": "StudentGradebook\\Controllers\\AssignmentsController.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAkwOgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T12:54:28.425Z",
+              "DocumentIndex": 10,
+              "Title": "EnterGrades.cshtml",
+              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\EnterGrades.cshtml",
+              "RelativeDocumentMoniker": "StudentGradebook\\Views\\Assignments\\EnterGrades.cshtml",
+              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Assignments\\EnterGrades.cshtml",
+              "RelativeToolTip": "StudentGradebook\\Views\\Assignments\\EnterGrades.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAkwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T13:06:46.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "GradeService.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\GradeService.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Services\\GradeService.cs",
@@ -253,20 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StudentGradebook\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StudentGradebook\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T11:47:33.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IGradeService.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\IGradeService.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Services\\IGradeService.cs",
@@ -279,20 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AssignmentService.cs",
-              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\AssignmentService.cs",
-              "RelativeDocumentMoniker": "StudentGradebook\\Services\\AssignmentService.cs",
-              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\AssignmentService.cs",
-              "RelativeToolTip": "StudentGradebook\\Services\\AssignmentService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwF4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T12:53:07.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "IAssignmentService.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\IAssignmentService.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Services\\IAssignmentService.cs",
@@ -305,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Enrollments\\Edit.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Enrollments\\Edit.cshtml",
@@ -318,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "IEnrollmentService.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\IEnrollmentService.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Services\\IEnrollmentService.cs",
@@ -331,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "EnrollmentService.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\EnrollmentService.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Services\\EnrollmentService.cs",
@@ -344,20 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Program.cs",
-              "RelativeDocumentMoniker": "StudentGradebook\\Program.cs",
-              "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Program.cs",
-              "RelativeToolTip": "StudentGradebook\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T11:13:06.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Controllers\\HomeController.cs",
@@ -370,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "EnrollmentsController.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Controllers\\EnrollmentsController.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Controllers\\EnrollmentsController.cs",
@@ -383,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Enrollments\\Index.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Enrollments\\Index.cshtml",
@@ -396,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Enrollments\\Create.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Enrollments\\Create.cshtml",
@@ -409,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Students\\Edit.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Students\\Edit.cshtml",
@@ -422,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Courses\\Edit.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Courses\\Edit.cshtml",
@@ -435,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "TestCreate.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Enrollments\\TestCreate.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Enrollments\\TestCreate.cshtml",
@@ -448,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "CheckData.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Enrollments\\CheckData.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Enrollments\\CheckData.cshtml",
@@ -461,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Services\\StudentService.cs",
@@ -474,46 +557,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 37,
               "Title": "20251123120321_AddBirthDateToStudent.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123120321_AddBirthDateToStudent.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Migrations\\20251123120321_AddBirthDateToStudent.cs",
               "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123120321_AddBirthDateToStudent.cs",
               "RelativeToolTip": "StudentGradebook\\Migrations\\20251123120321_AddBirthDateToStudent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T12:03:21.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T12:03:21.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Models\\Student.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Models\\Student.cs",
               "RelativeToolTip": "StudentGradebook\\Models\\Student.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wDYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T11:59:44.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Students\\Create.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Students\\Create.cshtml",
               "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Students\\Create.cshtml",
               "RelativeToolTip": "StudentGradebook\\Views\\Students\\Create.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAIBJwDwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-23T12:01:39.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ByCourse.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Enrollments\\ByCourse.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Enrollments\\ByCourse.cshtml",
@@ -526,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "ByStudent.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Enrollments\\ByStudent.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Enrollments\\ByStudent.cshtml",
@@ -539,20 +620,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "20251123115144_AddEnrollments.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123115144_AddEnrollments.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Migrations\\20251123115144_AddEnrollments.cs",
               "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123115144_AddEnrollments.cs",
               "RelativeToolTip": "StudentGradebook\\Migrations\\20251123115144_AddEnrollments.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T11:51:44.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T11:51:44.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Courses\\Delete.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Courses\\Delete.cshtml",
@@ -565,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Students\\Details.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Students\\Details.cshtml",
@@ -578,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Students\\Delete.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Students\\Delete.cshtml",
@@ -591,29 +670,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "StudentGradebook\\Views\\Students\\Index.cshtml",
               "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Views\\Students\\Index.cshtml",
               "RelativeToolTip": "StudentGradebook\\Views\\Students\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwDYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-23T11:48:18.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "20251123111654_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123111654_InitialCreate.cs",
               "RelativeDocumentMoniker": "StudentGradebook\\Migrations\\20251123111654_InitialCreate.cs",
               "ToolTip": "C:\\Users\\boub0\\source\\repos\\StudentGradebook\\StudentGradebook\\Migrations\\20251123111654_InitialCreate.cs",
               "RelativeToolTip": "StudentGradebook\\Migrations\\20251123111654_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T11:16:54.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T11:16:54.761Z"
             }
           ]
         }
