@@ -166,44 +166,7 @@ namespace StudentGradebook.Controllers
             return View(viewModel);
         }
 
-        // POST: Assignments/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, AssignmentViewModel viewModel)
-        {
-            if (id != viewModel.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                // Convert ViewModel to Entity
-                var assignment = new Assignment
-                {
-                    Id = viewModel.Id,
-                    CourseId = viewModel.CourseId,
-                    Title = viewModel.Title,
-                    Description = viewModel.Description,
-                    MaxPoints = viewModel.MaxPoints,
-                    Weight = viewModel.Weight,
-                    Type = viewModel.Type,
-                    DueDate = viewModel.DueDate
-                };
-
-                var result = await _assignmentService.UpdateAssignmentAsync(assignment);
-                if (result)
-                {
-                    TempData["SuccessMessage"] = "Assignment updated successfully!";
-                    return RedirectToAction(nameof(Index));
-                }
-                ModelState.AddModelError("", "Error updating assignment. Please try again.");
-            }
-
-            await PopulateCoursesViewData();
-            return View(viewModel);
-        }
-
+        
         // GET: Assignments/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
@@ -307,6 +270,7 @@ namespace StudentGradebook.Controllers
 
             return RedirectToAction(nameof(Details), new { id });
         }
+
 
         private async Task PopulateCoursesViewData()
         {
