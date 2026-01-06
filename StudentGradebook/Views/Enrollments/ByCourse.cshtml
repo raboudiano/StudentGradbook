@@ -1,0 +1,85 @@
+﻿@model IEnumerable<StudentGradebook.Models.Enrollment>
+@{
+    var course = ViewBag.Course as StudentGradebook.Models.Course;
+    ViewData["Title"] = $"Enrollments for {course?.CourseCode} - {course?.Name}";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Enrollments for @course?.CourseCode - @course?.Name</h1>
+    <div>
+        <a asp-controller="Courses" asp-action="Details" asp-route-id="@course?.Id" class="btn btn-secondary">Back to Course</a>
+        <a asp-controller="Enrollments" asp-action="Create" class="btn btn-primary">Enroll New Student</a>
+    </div>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        <h4>No Enrollments Found</h4>
+        <p>No students are enrolled in this course yet.</p>
+        <a asp-controller="Enrollments" asp-action="Create" class="btn btn-primary">Enroll a Student</a>
+    </div>
+}
+else
+{
+    <div class="card">
+        <div class="card-body">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Email</th>
+                        <th>Enrollment Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Student.StudentId</td>
+                            <td>@item.Student.FullName</td>
+                            <td>@item.Student.Email</td>
+                            <td>@item.EnrollmentDate.ToString("MM/dd/yyyy")</td>
+                            <td>
+                                <span class="badge @GetStatusBadgeClass(item.Status)">
+                                    @item.Status
+                                </span>
+                            </td>
+                            <td>
+                                <a asp-controller="Students" asp-action="Details" asp-route-id="@item.StudentId"
+                                   class="btn btn-sm btn-info">Student Details</a>
+                                @if (item.Status == EnrollmentStatus.Enrolled)
+                                {
+                                    <form asp-action="Drop" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@item.Id" />
+                                        <button type="submit" class="btn btn-sm btn-danger"
+                                                onclick="return confirm('Are you sure you want to drop this student?')">
+                                            Drop Student
+                                        </button>
+                                    </form>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+
+@functions {
+    public string GetStatusBadgeClass(EnrollmentStatus status)
+    {
+        return status switch
+        {
+            EnrollmentStatus.Enrolled => "bg-success",
+            EnrollmentStatus.Completed => "bg-primary",
+            EnrollmentStatus.Dropped => "bg-danger",
+            EnrollmentStatus.Withdrawn => "bg-warning",
+            _ => "bg-secondary"
+        };
+    }
+}

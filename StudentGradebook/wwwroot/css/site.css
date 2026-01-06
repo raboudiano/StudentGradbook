@@ -1,0 +1,143 @@
+:root{
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --border: rgba(17,24,39,.08);
+  --shadow: 0 14px 40px rgba(17,24,39,.08);
+  --brand1:#114bc9;
+  --brand2:#4276ef;
+}
+
+html, body { height: 100%; }
+body{
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Global links (keep neutral) */
+a{ color: inherit; text-decoration: none; }
+a:hover{ text-decoration: none; }
+
+/* ========== Navbar ========== */
+.app-navbar{
+  background: rgba(255,255,255,.75);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar-brand{
+  color: var(--text) !important;
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+.navbar-brand:hover{ color: var(--text) !important; }
+
+.brand-badge{
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--brand1), var(--brand2));
+  box-shadow: 0 14px 30px rgba(17,75,201,.22);
+}
+
+/* Center nav links + make them black */
+.navbar .nav-link{
+  border-radius: 999px;
+  color: var(--text) !important;
+  padding: .45rem .8rem !important;
+  font-weight: 600;
+}
+.navbar .nav-link:hover{
+  background: rgba(17,24,39,.06);
+}
+.navbar .nav-link.active{
+  background: rgba(17,75,201,.10);
+  color: var(--brand1) !important;
+}
+
+/* ========== Account Dropdown ========== */
+.account-trigger{
+  border: 1px solid rgba(0,0,0,.08);
+  background: rgba(255,255,255,.85);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 999px;
+  padding: .35rem .6rem;
+  transition: box-shadow .2s ease, border-color .2s ease, transform .2s ease;
+  color: var(--text) !important;
+  font-weight: 800;
+}
+.account-trigger:hover{
+  border-color: rgba(0,0,0,.12);
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  transform: translateY(-1px);
+}
+
+.account-avatar{
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: .9rem;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand1), var(--brand2));
+  box-shadow: 0 10px 22px rgba(17,75,201,.20);
+  flex: 0 0 auto;
+}
+
+.account-menu{
+  border: 1px solid rgba(0,0,0,.06);
+  border-radius: 14px;
+  overflow: hidden;
+  min-width: 240px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.12);
+}
+.account-menu .dropdown-item{
+  padding: .65rem .9rem;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  color: var(--text) !important;
+}
+.account-menu .dropdown-item:hover{
+  background: rgba(17,24,39,.05);
+}
+.account-menu .dropdown-item.text-danger{
+  color: #dc3545 !important;
+}
+
+/* ========== Main page cards ========== */
+.page-shell{ padding-top: 1.25rem; padding-bottom: 3rem; }
+.page-card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+/* Buttons */
+.btn-gradient{
+  color: #fff;
+  border: 0;
+  background: linear-gradient(135deg, var(--brand1), var(--brand2));
+  border-radius: 999px;
+  padding: .55rem 1rem;
+}
+.btn-soft{
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.9);
+}
+
+/* Footer (no absolute) */
+.app-footer{
+  border-top: 1px solid var(--border);
+  background: rgba(255,255,255,.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}

@@ -1,0 +1,71 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    var userName = User.Identity?.Name ?? "Account";
+    var displayName = userName.Contains("@") ? userName.Split('@')[0] : userName;
+    displayName = string.IsNullOrWhiteSpace(displayName) ? "User" : displayName.Trim();
+    var initial = displayName.Length > 0 ? displayName[0].ToString().ToUpperInvariant() : "U";
+}
+
+<ul class="navbar-nav align-items-center gap-2">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle d-flex align-items-center gap-2 account-trigger"
+           href="#"
+           id="accountDropdown"
+           role="button"
+           data-bs-toggle="dropdown"
+           aria-expanded="false">
+            <span class="account-avatar" aria-hidden="true">@initial</span>
+            <span class="d-none d-lg-inline">@displayName</span>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu-end account-menu mt-2" aria-labelledby="accountDropdown">
+            <li class="px-3 py-3">
+                <div class="small text-muted">Signed in</div>
+                <div class="fw-semibold text-truncate">@userName</div>
+            </li>
+
+            <li><hr class="dropdown-divider my-0" /></li>
+
+            <li>
+                <a class="dropdown-item"
+                   asp-area="Identity"
+                   asp-page="/Account/Manage/Index">
+                    <span class="menu-icon">⚙️</span>
+                    <span>Account settings</span>
+                </a>
+            </li>
+
+            <li>
+                <form asp-area="Identity"
+                      asp-page="/Account/Logout"
+                      asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })"
+                      class="m-0">
+                    <button type="submit" class="dropdown-item text-danger">
+                        <span class="menu-icon">⟵</span>
+                        <span>Sign out</span>
+                    </button>
+                </form>
+            </li>
+        </ul>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="btn btn-soft px-3" asp-area="Identity" asp-page="/Account/Login">
+            Sign in
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="btn btn-gradient px-3" asp-area="Identity" asp-page="/Account/Register">
+            Create account
+        </a>
+    </li>
+}
+</ul>
