@@ -1,8 +1,87 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData[index: "Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5">
+
+    <!-- HERO -->
+    <div class="text-center mb-5">
+        <h1 class="fw-bold display-5 mb-3">
+            Student Gradebook
+        </h1>
+        <p class="text-muted fs-5 mx-auto" style="max-width:650px;">
+            Manage students, courses, enrollments, and grades in one simple and organized platform.
+        </p>
+    </div>
+
+    <!-- QUICK ACTIONS -->
+    <div class="row g-4">
+
+        <!-- Students -->
+        <div class="col-md-6 col-lg-3">
+            <div class="page-card p-4 h-100 text-center">
+                <div class="fs-1 mb-3">👨‍🎓</div>
+                <h5 class="fw-semibold mb-2">Students</h5>
+                <p class="text-muted small">
+                    Add, view, and manage student profiles.
+                </p>
+                <a asp-controller="Students" asp-action="Index"
+                   class="btn btn-soft w-100">
+                    Manage Students
+                </a>
+            </div>
+        </div>
+
+        <!-- Courses -->
+        <div class="col-md-6 col-lg-3">
+            <div class="page-card p-4 h-100 text-center">
+                <div class="fs-1 mb-3">📚</div>
+                <h5 class="fw-semibold mb-2">Courses</h5>
+                <p class="text-muted small">
+                    Create and organize available courses.
+                </p>
+                <a asp-controller="Courses" asp-action="Index"
+                   class="btn btn-soft w-100">
+                    View Courses
+                </a>
+            </div>
+        </div>
+
+        <!-- Enrollments -->
+        <div class="col-md-6 col-lg-3">
+            <div class="page-card p-4 h-100 text-center">
+                <div class="fs-1 mb-3">📝</div>
+                <h5 class="fw-semibold mb-2">Enrollments</h5>
+                <p class="text-muted small">
+                    Assign students to their courses.
+                </p>
+                <a asp-controller="Enrollments" asp-action="Index"
+                   class="btn btn-soft w-100">
+                    Manage Enrollments
+                </a>
+            </div>
+        </div>
+
+        <!-- Assignments / Grades -->
+        <div class="col-md-6 col-lg-3">
+            <div class="page-card p-4 h-100 text-center">
+                <div class="fs-1 mb-3">📊</div>
+                <h5 class="fw-semibold mb-2">Grades</h5>
+                <p class="text-muted small">
+                    Track assignments and student grades.
+                </p>
+                <a asp-controller="Assignments" asp-action="Index"
+                   class="btn btn-gradient w-100">
+                    View Grades
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER INFO -->
+    <div class="text-center mt-5 text-muted small">
+        Designed to simplify academic management and improve productivity.
+    </div>
+
 </div>

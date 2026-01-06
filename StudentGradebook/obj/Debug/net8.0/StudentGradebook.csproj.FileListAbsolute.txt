@@ -152,3 +152,4 @@ C:\Users\boub0\source\repos\StudentGradebook\StudentGradebook\obj\Debug\net8.0\r
 C:\Users\boub0\source\repos\StudentGradebook\StudentGradebook\obj\Debug\net8.0\StudentGradebook.pdb
 C:\Users\boub0\source\repos\StudentGradebook\StudentGradebook\obj\Debug\net8.0\StudentGradebook.genruntimeconfig.cache
 C:\Users\boub0\source\repos\StudentGradebook\StudentGradebook\obj\Debug\net8.0\ref\StudentGradebook.dll
+C:\Users\boub0\source\repos\StudentGradebook\StudentGradebook\obj\Debug\net8.0\scopedcss\Views\Shared_ibrahim\_Layout.cshtml.rz.scp.css

@@ -58,12 +58,38 @@ namespace StudentGradebook.Services
         {
             try
             {
-                _context.Assignments.Update(assignment);
-                await _context.SaveChangesAsync();
-                return true;
+                Console.WriteLine("=== UPDATE ASSIGNMENT SERVICE ===");
+                Console.WriteLine($"Updating assignment ID: {assignment.Id}");
+                Console.WriteLine($"CourseId: {assignment.CourseId}, Type: {assignment.Type}");
+
+                // Find the existing assignment
+                var existingAssignment = await _context.Assignments
+                    .FirstOrDefaultAsync(a => a.Id == assignment.Id);
+
+                if (existingAssignment == null)
+                {
+                    Console.WriteLine("Assignment not found!");
+                    return false;
+                }
+
+                // Update all properties
+                existingAssignment.CourseId = assignment.CourseId;
+                existingAssignment.Title = assignment.Title;
+                existingAssignment.Description = assignment.Description;
+                existingAssignment.MaxPoints = assignment.MaxPoints;
+                existingAssignment.Weight = assignment.Weight;
+                existingAssignment.Type = assignment.Type;
+                existingAssignment.DueDate = assignment.DueDate;
+
+                _context.Assignments.Update(existingAssignment);
+                var result = await _context.SaveChangesAsync();
+
+                Console.WriteLine($"Update result: {result} rows affected");
+                return result > 0;
             }
-            catch
+            catch (Exception ex)
             {
+                Console.WriteLine($"EXCEPTION in UpdateAssignmentAsync: {ex.Message}");
                 return false;
             }
         }

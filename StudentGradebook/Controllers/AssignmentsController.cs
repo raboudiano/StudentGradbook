@@ -270,7 +270,65 @@ namespace StudentGradebook.Controllers
 
             return RedirectToAction(nameof(Details), new { id });
         }
+        // POST: Assignments/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, AssignmentViewModel viewModel)
+        {
+            Console.WriteLine("=== ASSIGNMENT EDIT DEBUG ===");
+            Console.WriteLine($"ModelState IsValid: {ModelState.IsValid}");
+            Console.WriteLine($"Id: {viewModel.Id}");
+            Console.WriteLine($"CourseId: {viewModel.CourseId}");
+            Console.WriteLine($"Type: {viewModel.Type}");
+            Console.WriteLine($"DueDate: {viewModel.DueDate}");
 
+            if (id != viewModel.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                Console.WriteLine("Attempting to update assignment...");
+
+                // Convert ViewModel to Entity
+                var assignment = new Assignment
+                {
+                    Id = viewModel.Id,
+                    CourseId = viewModel.CourseId,
+                    Title = viewModel.Title,
+                    Description = viewModel.Description,
+                    MaxPoints = viewModel.MaxPoints,
+                    Weight = viewModel.Weight,
+                    Type = viewModel.Type,
+                    DueDate = viewModel.DueDate
+                };
+
+                var result = await _assignmentService.UpdateAssignmentAsync(assignment);
+                if (result)
+                {
+                    TempData["SuccessMessage"] = "Assignment updated successfully!";
+                    return RedirectToAction(nameof(Index));
+                }
+
+                ModelState.AddModelError("", "Error updating assignment. Please try again.");
+            }
+            else
+            {
+                Console.WriteLine("=== MODEL STATE ERRORS ===");
+                foreach (var key in ModelState.Keys)
+                {
+                    var state = ModelState[key];
+                    foreach (var error in state.Errors)
+                    {
+                        Console.WriteLine($"{key}: {error.ErrorMessage}");
+                    }
+                }
+            }
+
+            await PopulateCoursesViewData();
+            return View(viewModel);
+        }
 
         private async Task PopulateCoursesViewData()
         {
