@@ -9,129 +9,129 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentGradebook
 build_property.RootNamespace = StudentGradebook
-build_property.ProjectDir = C:\Users\rawen\Downloads\StudentGradbook-master\StudentGradebook\
+build_property.ProjectDir = c:\Users\rawen\Downloads\StudentGradbook-master\StudentGradebook\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rawen\Downloads\StudentGradbook-master\StudentGradebook
+build_property.MSBuildProjectDirectory = c:\Users\rawen\Downloads\StudentGradbook-master\StudentGradebook
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Assignments/Create.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Assignments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Assignments/Details.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Assignments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Assignments/EnterGrades.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Assignments/EnterGrades.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcRW50ZXJHcmFkZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Assignments/Index.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Assignments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Create.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Delete.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Details.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Edit.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Index.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/ByCourse.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/ByCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcQnlDb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/ByStudent.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/ByStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcQnlTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/CheckData.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/CheckData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcQ2hlY2tEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/Create.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/Edit.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/Index.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/TestCreate.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Enrollments/TestCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcVGVzdENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Home/Index.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Home/Privacy.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Shared/Error.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Create.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Delete.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Details.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Edit.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Index.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/_ViewImports.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/_ViewStart.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Shared/_Layout.cshtml]
+[c:/Users/rawen/Downloads/StudentGradbook-master/StudentGradebook/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-clagsn2bil
